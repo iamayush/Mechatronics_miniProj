@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project HW4 ****
+
+"E:\\ti\\ccsv7\\utils\\bin\\gmake" -k all 
+ 
+'Building file: "E:/UIUC/Spring18/Mechatronics/HW/mycode/HW4/user_HW4.c"'
+'Invoking: MSP430 Compiler'
+"E:/ti/i-cgt-msp430_17.9.0.STS/bin/cl430" -vmsp -O0 --include_path="E:/ti/ccsv7/ccs_base/msp430/include" --include_path="E:/ti/i-cgt-msp430_17.9.0.STS/include" --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="user_HW4.d_raw"  "E:/UIUC/Spring18/Mechatronics/HW/mycode/HW4/user_HW4.c"
+'Finished building: "E:/UIUC/Spring18/Mechatronics/HW/mycode/HW4/user_HW4.c"'
+ 
+'Building target: "HW4.out"'
+'Invoking: MSP430 Linker'
+"E:/ti/i-cgt-msp430_17.9.0.STS/bin/cl430" -vmsp -O0 --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --display_error_number --abi=eabi -z -m"HW4.map" --heap_size=80 --stack_size=80 -i"E:/ti/ccsv7/ccs_base/msp430/include" -i"E:/ti/i-cgt-msp430_17.9.0.STS/lib" -i"E:/ti/i-cgt-msp430_17.9.0.STS/include" --reread_libs --warn_sections --xml_link_info="HW4_linkInfo.xml" --rom_model -o "HW4.out" "./UARTfuncs.obj" "./user_HW4.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+'Finished building target: "HW4.out"'
+ 
+
+**** Build Finished ****

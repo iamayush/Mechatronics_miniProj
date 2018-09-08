@@ -1,0 +1,1 @@
+"./UARTfuncs.obj" "./explore_traj.obj" "./user_proj_ver1.obj" "../lnk_msp430g2553.cmd" -llibc.a 
